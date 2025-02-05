@@ -35,8 +35,7 @@ def getFaces(path):
                 encodings = face_recognition.face_encodings(face_image)
                 if encodings: # Ensure at least one face is detected
                     faces.append(encodings[0])
-                    ID = person  # Use the folder name instead of filename
-                    IDs.append(ID)
+                    IDs.append(person)
                 else:
                     print(f"Warning: No face found in {imagepath}")
             except Exception as e:
