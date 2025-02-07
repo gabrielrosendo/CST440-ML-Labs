@@ -10,3 +10,5 @@ cv-corpus-20.0-delta-2024-12-06/
 *.tiff
 *.svg
 >>>>>>> 8684de0 (Added face detection/ recognition code)
+face_recognition_model.h5
+face_recognition_model.keras
