@@ -7,5 +7,5 @@ cv-corpus-20.0-delta-2024-12-06/
 *.bmp
 *.tiff
 *.svg
-face_recognition_model.h5
-face_recognition_model.keras
+*.h5
+*.keras
